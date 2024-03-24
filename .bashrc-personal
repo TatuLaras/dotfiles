@@ -1,0 +1,3 @@
+alias yay='yay --noconfirm'
+alias vim='nvim'
+
