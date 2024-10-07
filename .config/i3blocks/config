@@ -1,0 +1,17 @@
+# Query my default IP address only on startup
+[ip]
+command=ip -4 addr show enp3s0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'
+interval=once
+color=#91E78B
+
+[volume]
+command=~/.config/i3blocks/volume/volume
+LABEL=♪ 
+interval=once
+signal=10
+
+# Update time every 5 seconds
+[time]
+command=date +%R
+interval=5
+
