@@ -1,3 +1,3 @@
 alias yay='yay --noconfirm'
 alias vim='nvim'
-
+alias alahere='alacritty --working-directory . &'

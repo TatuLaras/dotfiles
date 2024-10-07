@@ -41,10 +41,6 @@ style = "Semibold Italic"
 family = "Monaspace Argon Var"
 style = "Semibold"
 
-[[keyboard.bindings]]
-action = "ToggleFullscreen"
-key = "F11"
-
 [scrolling]
 history = 50000
 
